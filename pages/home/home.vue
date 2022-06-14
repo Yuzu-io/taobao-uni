@@ -79,11 +79,11 @@ export default {
     }
   },
   created () {
-    this.getGoodsLists()
+    this.getGoodsListApi()
   },
   methods: {
     // 获取数据
-    getGoodsLists () {
+    getGoodsListApi () {
       getGoodsList(1, 10).then((res) => {
         console.log(res);
         if (res.data.code === 200) {

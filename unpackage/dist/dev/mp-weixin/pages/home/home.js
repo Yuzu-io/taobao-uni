@@ -234,11 +234,11 @@ var _goods = __webpack_require__(/*! @/api/goods */ 142);var Search = function S
 
   },
   created: function created() {
-    this.getGoodsLists();
+    this.getGoodsListApi();
   },
   methods: {
     // 获取数据
-    getGoodsLists: function getGoodsLists() {var _this = this;
+    getGoodsListApi: function getGoodsListApi() {var _this = this;
       (0, _goods.getGoodsList)(1, 10).then(function (res) {
         console.log(res);
         if (res.data.code === 200) {
