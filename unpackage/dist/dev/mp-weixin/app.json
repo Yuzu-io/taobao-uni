@@ -34,4 +34,12 @@
             },
             {
                 "text": "我的",
-                "pa
+                "pagePath": "pages/me/me",
+                "iconPath": "static/image/tabbar/me.png",
+                "selectedIconPath": "static/image/tabbar/me-active.png"
+            }
+        ]
+    },
+    "usingComponents": {},
+    "sitemapLocation": "sitemap.json"
+}
