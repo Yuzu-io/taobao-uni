@@ -1,0 +1,1 @@
+<view class="empty"><u-empty vue-id="72029221-1" mode="car" icon="{{icon}}" bind:__l="__l"></u-empty></view>

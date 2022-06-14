@@ -1,0 +1,75 @@
+{
+	"pages": [
+		{
+			"path": "pages/home/home",
+      "style":{
+        "navigationBarTitleText": "首页"
+      }
+		},
+    {
+			"path": "pages/cart/cart",
+      "style":{
+        "navigationBarTitleText": "购物车"
+      }
+		},
+    {
+			"path": "pages/me/me",
+      "style":{
+        "navigationBarTitleText": "我的"
+      }
+		},
+    {
+			"path": "pages/login/login",
+      "style":{
+        "navigationBarTitleText": "登录"
+      }
+		},
+    {
+			"path": "pages/register/register",
+      "style":{
+        "navigationBarTitleText": "注册"
+      }
+		},
+    {
+			"path": "pages/details/details",
+      "style":{
+        "navigationBarTitleText": "商品详情"
+      }
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarTitleText": "商城",
+		"navigationBarBackgroundColor": "#fff",
+		"backgroundColor": "#F8F8F8",
+    "titleNView":"false"
+	},
+  "tabBar": {
+    "color": "#9696a1",
+    "selectedColor":"#ff6d6d",
+    "backgroundColor": "#fff",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/home/home",
+        "iconPath": "static/image/tabbar/home.png",
+        "selectedIconPath": "static/image/tabbar/home-active.png"
+      },
+      {
+        "text": "购物车",
+        "pagePath": "pages/cart/cart",
+        "iconPath": "static/image/tabbar/cart.png",
+        "selectedIconPath": "static/image/tabbar/cart-active.png"
+      },
+      {
+        "text": "我的",
+        "pagePath": "pages/me/me",
+        "iconPath": "static/image/tabbar/me.png",
+        "selectedIconPath": "static/image/tabbar/me-active.png"
+      }
+    ]
+  },
+  "easycom": {
+		"^u-(.*)": "uview-ui/components/u-$1/u-$1.vue"
+	}
+}

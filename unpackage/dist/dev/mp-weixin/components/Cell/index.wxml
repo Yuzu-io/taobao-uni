@@ -1,0 +1,1 @@
+<view class="cell data-v-100bcf00"><u-cell vue-id="1d22dbf4-1" icon="{{icon}}" title="{{title}}" isLink="{{isLink}}" url="{{url}}" class="data-v-100bcf00" bind:__l="__l" vue-slots="{{['title','value']}}"><slot name="title" slot="title"></slot><slot name="value" slot="value"></slot></u-cell></view>

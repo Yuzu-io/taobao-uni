@@ -1,0 +1,1 @@
+<view><u-navbar vue-id="60eac358-1" title="{{title}}" autoBack="{{autoBack}}" fixed="{{fixed}}" bind:__l="__l" vue-slots="{{['left']}}"><slot name="left" slot="left"></slot></u-navbar></view>

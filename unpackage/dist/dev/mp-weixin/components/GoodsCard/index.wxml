@@ -1,0 +1,1 @@
+<view class="goods-card data-v-1c829bfe"><image src="{{img}}" mode="widthFix" data-event-opts="{{[['tap',[['clickCard',['$event']]]]]}}" bindtap="__e" class="data-v-1c829bfe"></image><view class="describe data-v-1c829bfe"><text class="title data-v-1c829bfe">{{title}}</text><text class="pic data-v-1c829bfe">{{"￥"+pic}}</text></view></view>
